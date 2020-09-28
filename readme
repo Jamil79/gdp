@@ -1,0 +1,37 @@
+This project is worked according to the CRISP-DM process:
+
+Business understanding
+Data understanding
+Data preparation
+Modeling
+
+
+Business understanding:
+
+This is a dataset got from Kaggle, it is about the us economic indicators since 1930 till 2019, 27 columns of data.
+It is about GDP, detailed GDP, consumption, investment, government expenditures...
+
+Data understanding:
+
+It is an excel file that needed a lot of cleaning. A lot of null cells in it, unnamed columns, I had to transpose the table.
+Problems that occured while working with this file, I could not work in Jupyter on the transposed table, I don't know why.
+Cleaning was done on excel as it was a lot easier than on python.
+
+Modeling:
+
+The model consists of 5 parts:
+
+First opening the libraries and the file.
+
+Second a correlation between GDP and consumtion.
+
+Third the mean of investment.
+
+Fourth a time serie rolling mean  on GDP with its chart.
+
+Last a visualization of the imports.
+
+This project was my first one, I learned a lot from it and hopefully will continue to learn.
+
+
+ 
